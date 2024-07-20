@@ -1,0 +1,78 @@
+/* 1200, 992, 768, 576, 360 */
+@media (max-width: 1200px) {
+
+    .container {
+    
+        width: 900px;
+    }
+
+    
+}
+
+@media(max-width: 992px) {
+    .container {
+        width: 700px;
+    }
+
+   
+    .category_box  {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    #n3 {
+        display: none;
+    }
+    
+    #n4 {
+        display: none;
+        
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 500px;
+    }
+
+    .header {
+        background: url(./img/hamburger.png) no-repeat center/cover;
+    }
+
+    .header_text a:nth-child(1n) {
+        display: none;
+    }
+
+    #email {
+        width: 100%;
+    }
+
+    .btn {
+        Width: 100%;
+    }
+   
+    .category_box  {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    #n3 {
+        display: none;
+    }
+    
+    #n4 {
+        display: none;
+        
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+
+    .company_box {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
